@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>RGBA Color Picker</title>
+</head>
+<body>
+    <h1>Color Picker</h1>
+    <div class="block">
+    <div class="block_color"></div>
+    <p class="red">Red</p> 
+    <input type="range" min="0" max="255" value="0" id="red">
+    <p class="green">Green</p>
+    <input type="range" min="0" max="255" value="0" id="green">
+    <p class="blue">Blue</p>
+    <input type="range" min="0" max="255" value="0" id="blue">
+    <p class="alpha">Alpha</p>
+    <input type="range" min="1" max="100"   value="0" id="alpha">
+    <span id="output">rgba(0,0,0,0)</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
